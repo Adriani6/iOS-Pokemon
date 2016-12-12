@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Magikarp</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>300</integer>
+		<key>url</key>
+		<string>https://img.pokemondb.net/artwork/magikarp.jpg</string>
+		<key>Defence Speed</key>
+		<integer>200</integer>
+		<key>Defence</key>
+		<integer>0</integer>
+		<key>Type</key>
+		<string>Water</string>
+		<key>Attack Speed</key>
+		<integer>10</integer>
+		<key>Attack</key>
+		<integer>5</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>50</integer>
+		<key>Speed</key>
+		<integer>200</integer>
+	</dict>
+	<key>Oddish</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>150</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>10</integer>
+		<key>Defence</key>
+		<integer>20</integer>
+		<key>Type</key>
+		<string>Ground</string>
+		<key>Attack Speed</key>
+		<integer>15</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>40</integer>
+		<key>MaxHP</key>
+		<integer>100</integer>
+		<key>Speed</key>
+		<integer>50</integer>
+	</dict>
+	<key>Clefairy</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Pikachu</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Charizard</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Charmander</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Squirtle</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Bulbasaur</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Weedle</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+	<key>Beedrill</key>
+	<dict>
+		<key>Expiry</key>
+		<integer>500</integer>
+		<key>url</key>
+		<string></string>
+		<key>Defence Speed</key>
+		<integer>15</integer>
+		<key>Defence</key>
+		<integer>15</integer>
+		<key>Type</key>
+		<string>Fairy</string>
+		<key>Attack Speed</key>
+		<integer>20</integer>
+		<key>Attack</key>
+		<integer>20</integer>
+		<key>HP</key>
+		<integer>20</integer>
+		<key>MaxHP</key>
+		<integer>20</integer>
+		<key>Speed</key>
+		<integer>70</integer>
+	</dict>
+</dict>
+</plist>

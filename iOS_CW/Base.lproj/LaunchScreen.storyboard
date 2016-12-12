@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokemons" translatesAutoresizingMaskIntoConstraints="NO" id="8Rd-Ur-h7w">
+                                <rect key="frame" x="0.0" y="57" width="600" height="486"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="351" id="87H-iA-HBj"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="87H-iA-HBj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="87H-iA-HBj"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="244" text="Pokemon App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWZ-yc-T69">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="39"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="246" text="Adrian Iwaszkiewicz (1502689)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fc7-dF-dUi">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YWZ-yc-T69" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="36" id="6nw-eN-h8s"/>
+                            <constraint firstItem="fc7-dF-dUi" firstAttribute="top" secondItem="YWZ-yc-T69" secondAttribute="bottom" constant="8" id="7Kc-Tv-UPn">
+                                <variation key="widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="YWZ-yc-T69" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="55" id="7US-t7-X87"/>
+                            <constraint firstItem="8Rd-Ur-h7w" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="94d-VN-vcO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fc7-dF-dUi" secondAttribute="trailing" constant="54" id="AHG-Kk-dHg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8Rd-Ur-h7w" secondAttribute="bottom" constant="20" id="GEF-O3-VYI">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="8Rd-Ur-h7w" firstAttribute="centerX" secondItem="YWZ-yc-T69" secondAttribute="centerX" id="M9V-yt-yt5"/>
+                            <constraint firstAttribute="trailing" secondItem="8Rd-Ur-h7w" secondAttribute="trailing" id="zIG-hS-5Gz"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="YWZ-yc-T69"/>
+                                <exclude reference="fc7-dF-dUi"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6nw-eN-h8s"/>
+                                <exclude reference="7US-t7-X87"/>
+                                <exclude reference="7Kc-Tv-UPn"/>
+                                <exclude reference="AHG-Kk-dHg"/>
+                                <exclude reference="94d-VN-vcO"/>
+                                <exclude reference="M9V-yt-yt5"/>
+                                <exclude reference="zIG-hS-5Gz"/>
+                                <exclude reference="GEF-O3-VYI"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="YWZ-yc-T69"/>
+                                <include reference="fc7-dF-dUi"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6nw-eN-h8s"/>
+                                <include reference="7US-t7-X87"/>
+                                <include reference="7Kc-Tv-UPn"/>
+                                <include reference="AHG-Kk-dHg"/>
+                                <include reference="94d-VN-vcO"/>
+                                <include reference="M9V-yt-yt5"/>
+                                <include reference="zIG-hS-5Gz"/>
+                                <include reference="GEF-O3-VYI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pokemons" width="980" height="490"/>
+    </resources>
+</document>
