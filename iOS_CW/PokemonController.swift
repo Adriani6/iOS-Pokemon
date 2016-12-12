@@ -172,5 +172,5 @@ class PokemonController: UIViewController, UIPickerViewDataSource, UIPickerViewD
 
 // Protocol for communication between controllers
 protocol PokemonControllerDelegate{
-    func myVCDidFinish(controller:PokemonController,text:String)
+    func myVCDidFinish(controller:PokemonController)
 }
